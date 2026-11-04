@@ -1,6 +1,6 @@
 trojan://5t6i121em5lkmsmk@fr001.zestapp778.com:16778?allowInsecure=1&fp=chrome#%3E%3E%40oneclickvpnkeys%3A%3AFR
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@62.210.91.10:23576?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&security=reality&sid=01&sni=fuck.rkn&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AFR
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@62.210.91.2:23576?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&security=reality&sid=01&sni=fuck.rkn&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AFR
-vless://50414e45-4c5f-5a45-5553-7e7818beb9aa@104.20.45.141:443?path=%2Fstream%2FPANEL_ZEUS%2F7e7818beb9aa&security=tls&encryption=none&insecure=0&host=razk50e1uvss.amirhoseyn-meshki.workers.dev&fp=unsafe&type=ws&allowInsecure=0&sni=razk50e1uvss.amirhoseyn-meshki.workers.dev#%3E%3E%40configV2rayNG%3A%3AFR
+vless://b81b4d1b-7f20-48f1-82dc-d24bef898cab@161.97.160.224:443?security=reality&alpn=http%2F1.1&encryption=none&pbk=33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=passport.yandex.ru&sid=e6#%3E%3E%40configV2rayNG%3A%3AFR
 vless://fbda2834-b1e7-4148-afb9-deda31036a30@w.geogame.ir:2053?encryption=none&security=tls&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AFR
 hysteria2://dongtaiwang.com@62.210.124.146:22000/?insecure=1&sni=www.microsoft.com#%3E%3E%40oneclickvpnkeys%3A%3AFR
