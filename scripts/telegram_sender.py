@@ -48,9 +48,9 @@ def send_summary_message(bot: telebot.TeleBot, chat_id: str, counts: Dict[str, i
 
     base_raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPOSITORY}/main"
 
-    message = "📊 **خلاصه ساب‌لینک‌های V2rayExtractor** 📊\n\n"
+    message = " Here's Some v2Ray Shits for ya...😈\n\n"
     total_configs = sum(counts.values())
-    message += f"تعداد کل کانفیگ‌های سالم: **{total_configs}**\n\n"
+    message += f"a total of : **{total_configs}**\n\n"
 
     links_map = {
         "mix": f"{base_raw_url}/mix/sub.html", "vless": f"{base_raw_url}/vless.html",
@@ -58,18 +58,10 @@ def send_summary_message(bot: telebot.TeleBot, chat_id: str, counts: Dict[str, i
         "trojan": f"{base_raw_url}/trojan.html", "hy2": f"{base_raw_url}/hy2.html",
     }
 
-    if total_configs > 0:
-        message += f"**MIX (ALL):**\n"
-        message += f"```\n{links_map['mix']}\n```\n"
-
-    for protocol, count in counts.items():
-        message += f"**{protocol.upper()}:**\n"
-        message += f"```\n{links_map.get(protocol, '')}\n```\n"
-
 
     iran_tz = pytz.timezone("Asia/Tehran")
     time_ir = datetime.now(iran_tz).strftime("%Y-%m-%d %H:%M")
-    message += f"\n*آخرین بروزرسانی: {time_ir}*"
+    message += f"\n updated at : {time_ir}*"
 
     try:
         bot.send_message(chat_id, message, parse_mode='Markdown', disable_web_page_preview=True)
@@ -159,10 +151,9 @@ def send_all_grouped_configs(bot: telebot.TeleBot, channel_id: str, grouped_conf
 
             caption = (
                 f"{message_text}\n\n"
-                f"⏰ Time: {time_ir}\n"
-                f"🔍 From: [{safe_source}]({from_link})\n\n"
-                f"🆔 Main Channel: [{safe_main_channel_id}]({MAIN_CHANNEL_URL})\n"
-                f"🚀 Config Channel: [{safe_config_channel_id}]({CONFIG_CHANNEL_URL})"
+                f" Time: {time_ir}\n"
+                f" Main Channel: [{safe_main_channel_id}]({MAIN_CHANNEL_URL}) "
+                f" Config Channel: [{safe_config_channel_id}]({CONFIG_CHANNEL_URL})"
             )
 
             send_with_rate_limit_handling(
