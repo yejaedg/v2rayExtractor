@@ -22,10 +22,9 @@ MAIN_CHANNEL_URL = f"https://t.me/{MAIN_CHANNEL_ID_RAW}"
 CONFIG_CHANNEL_ID_RAW = os.getenv('TELEGRAM_CHANNEL_ID', 'v2ray_Extractor').lstrip('@')
 CONFIG_CHANNEL_URL = f"https://t.me/{CONFIG_CHANNEL_ID_RAW}"
 
-MARKUP = types.InlineKeyboardMarkup(row_width=2)
-btn1 = types.InlineKeyboardButton("Github", url="https://github.com/arshiacomplus")
-btn2 = types.InlineKeyboardButton("Author", url="https://t.me/arshiacomplus")
-MARKUP.add(btn1, btn2)
+MARKUP = types.InlineKeyboardMarkup(row_width=1)
+btn1 = types.InlineKeyboardButton("Main Channel", url="https://t.me/DemonCollector")
+MARKUP.add(btn1)
 
 
 def init_bot(token: str) -> telebot.TeleBot | None:
