@@ -1,5 +1,6 @@
 import base64
 import json
+import urllib.parse
 import logging
 import os
 import re
@@ -79,14 +80,15 @@ def full_unquote(s: str) -> str:
         s = urllib.parse.unquote(s)
     return s
 
-def clean_previous_configs(configs: List[str]) -> List[str]:
+def clean_previous_configs(configs: list) -> list:
     cleaned_configs = []
     for config in configs:
         try:
             if '#' in config:
                 base_uri, tag = config.split('#', 1)
 
-                decoded_tag = full_unquote(tag)
+                # استفاده از تابع استاندارد urllib برای رمزگشایی
+                decoded_tag = urllib.parse.unquote(tag)
                 cleaned_tag = re.sub(r'::[A-Z]{2}$', '', decoded_tag).strip()
 
                 if cleaned_tag:
