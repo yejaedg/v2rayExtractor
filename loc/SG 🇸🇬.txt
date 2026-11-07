@@ -1,4 +1,4 @@
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@149.88.107.74:19999#%3E%3E%40flyv2ray%3A%3ASG
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@15.235.184.127:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=exploredigitaljobplatformandfindonlinework.com#%3E%3E%40configV2rayNG%3A%3ASG
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@149.28.130.108:443?security=tls&headerType=none&type=tcp&allowInsecure=0&sni=searchcreativejobsandshowcaseyourartistictalents.com#%3E%3E%40v2rayngvpn%3A%3ASG
 vless://2dacc738-5720-4824-b8bc-e3db57596ba7@178.94.25.73:10443?encryption=none&security=none&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3ASG
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@140.235.11.243:56984?security=tls&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&sni=sg1.zestapp778.com#%3E%3E%40configV2rayNG%3A%3ASG
