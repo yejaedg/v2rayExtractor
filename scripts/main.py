@@ -57,10 +57,10 @@ def rename_config(config_str, custom_name):
      
     if '#' in config_str:
         base_config = config_str.split('#')[0]
-        return f"{base_config}#{"@DemonV2Ray"}"
+        return f"{base_config}#@DemonV2Ray"
     else:
    
-        return f"{config_str}#{"@DemonV2Ray"}"
+        return f"{config_str}#@DemonV2Ray"
 
 def chunk_configs(configs_list, n=5):
    
