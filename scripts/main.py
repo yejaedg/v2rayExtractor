@@ -53,6 +53,20 @@ TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 TELEGRAM_CHANNEL_ID = os.getenv('TELEGRAM_CHANNEL_ID')
 SUB_CHECKER_DIR = Path("sub-checker")
+def rename_config(config_str, custom_name):
+     
+    if '#' in config_str:
+        base_config = config_str.split('#')[0]
+        return f"{base_config}#{🔱@DemonV2Ray}"
+    else:
+   
+        return f"{config_str}#{🔱@DemonV2Ray}"
+
+def chunk_configs(configs_list, n=5):
+   
+    for i in range(0, len(configs_list), n):
+        yield configs_list[i:i + n] 
+
 
 def full_unquote(s: str) -> str:
 
